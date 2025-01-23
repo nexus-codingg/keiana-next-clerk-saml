@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.next_clerk_lyart.twa",
+      "sha256_cert_fingerprints": [
+        "65:43:D2:6D:D9:A1:0E:3E:D3:85:7B:79:96:CE:23:44:D1:70:5D:68:62:A0:74:74:5D:AA:0E:6D:8D:60:48:FB",
+        "6F:97:A4:17:3C:22:B9:8F:A7:F9:49:6C:FE:3E:6D:07:6F:77:2A:44:F0:06:F8:F6:93:E7:D6:67:66:FA:CA:BF"
+      ]
+    }
+  }
+]
