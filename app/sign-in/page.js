@@ -13,6 +13,7 @@ const inputStyleObj = {
   border: "1px solid black",
   outline: "none",
   backgroundColor: "white",
+  color: "black",
 };
 
 const buttonStyleObj = {
@@ -70,6 +71,7 @@ export default function Page() {
           type="email"
           name="email"
           placeholder="Enter email address"
+          required
         />
         <br></br>
         <br></br>
