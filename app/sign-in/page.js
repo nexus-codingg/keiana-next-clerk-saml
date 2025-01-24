@@ -5,6 +5,25 @@ import { useEffect } from "react";
 import { useSignIn, useSignUp } from "@clerk/nextjs";
 
 const key = "email";
+
+const inputStyleObj = {
+  padding: "10px",
+  width: "200px",
+  borderRadius: "5px",
+  border: "none",
+  outline: "none",
+};
+
+const buttonStyleObj = {
+  fontWeight: "bold",
+  width: "100%",
+  padding: "10px 5px",
+  border: "none",
+  background: "#ef6405",
+  borderRadius: "5px",
+  color: "white",
+  cursor: "pointer",
+};
 export default function Page() {
   const { signIn } = useSignIn();
   const { signUp } = useSignUp();
@@ -44,11 +63,16 @@ export default function Page() {
         height: "100vh",
       }}
     >
-      <form onSubmit={(e) => signInWithEnterpriseSSO(e)}>
-        <input type="email" name="email" placeholder="Enter email address" />
+      <form onSubmit={signInWithEnterpriseSSO}>
+        <input
+          style={inputStyleObj}
+          type="email"
+          name="email"
+          placeholder="Enter email address"
+        />
         <br></br>
         <br></br>
-        <button>Sign in with Enterprise SSO</button>
+        <button style={buttonStyleObj}>Sign In</button>
       </form>
     </div>
   );

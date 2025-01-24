@@ -8,7 +8,7 @@ const styleObj = {
   height: "40px",
   borderRadius: "5px",
   color: "white",
-  background: "red",
+  background: "#ef6405",
   fontSize: "15px",
   cursor: "pointer",
   marginTop: "20px",
@@ -36,7 +36,7 @@ export default function Dashboard() {
       }}
     >
       <div style={{ textAlign: "center" }}>
-        <h1 style={{ marginTop: "20px" }}>Welcome to Dashboard</h1>
+        <h1 style={{ marginTop: "20px" }}>Discover Screen</h1>
         <button
           style={styleObj}
           onClick={() => {

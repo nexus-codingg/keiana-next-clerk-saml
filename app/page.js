@@ -5,13 +5,13 @@ import styles from "./page.module.css";
 
 const styleObj = {
   border: "none",
-  width: "100px",
   height: "40px",
   borderRadius: "5px",
   color: "white",
-  background: "navy",
-  fontSize: "15px",
+  background: "#ef6405",
   cursor: "pointer",
+  padding: "10px 5px",
+  fontWeight: "bold",
 };
 export default function Home() {
   const router = useRouter();
@@ -31,7 +31,7 @@ export default function Home() {
       }}
     >
       <button style={styleObj} onClick={() => router.replace("/sign-in")}>
-        Sign In
+        Sign In with SSO
       </button>
     </div>
   );
