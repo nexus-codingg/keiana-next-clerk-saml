@@ -10,8 +10,9 @@ const inputStyleObj = {
   padding: "10px",
   width: "200px",
   borderRadius: "5px",
-  border: "none",
+  border: "1px solid black",
   outline: "none",
+  backgroundColor: "white",
 };
 
 const buttonStyleObj = {

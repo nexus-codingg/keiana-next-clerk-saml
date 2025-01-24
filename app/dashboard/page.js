@@ -36,7 +36,7 @@ export default function Dashboard() {
       }}
     >
       <div style={{ textAlign: "center" }}>
-        <h1 style={{ marginTop: "20px" }}>Discover Screen</h1>
+        <h1 style={{ marginTop: "20px", color: "black" }}>Discover Screen</h1>
         <button
           style={styleObj}
           onClick={() => {
