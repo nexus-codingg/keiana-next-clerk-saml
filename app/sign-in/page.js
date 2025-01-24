@@ -65,7 +65,7 @@ export default function Page() {
         height: "100vh",
       }}
     >
-      <form onSubmit={signInWithEnterpriseSSO}>
+      <form onSubmit={(e) => signInWithEnterpriseSSO(e)}>
         <input
           style={inputStyleObj}
           type="email"
