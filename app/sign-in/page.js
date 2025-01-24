@@ -13,7 +13,7 @@ const inputStyleObj = {
   border: "1px solid black",
   outline: "none",
   backgroundColor: "white",
-  // color: "black",
+  color: "black",
 };
 
 const buttonStyleObj = {
