@@ -44,7 +44,7 @@ export default function Page() {
       .authenticateWithRedirect({
         identifier: email,
         strategy: "enterprise_sso",
-        redirectUrl: "/sign-up/sso-callback",
+        redirectUrl: "/sso-callback",
         redirectUrlComplete: "/dashboard",
       })
       .then((res) => {
