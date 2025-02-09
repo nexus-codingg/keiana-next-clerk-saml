@@ -1,10 +1,8 @@
-import { UserDetails } from "../components/user-details";
+import { UserDetails } from "../../components/user-details";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
-import { CodeSwitcher } from "../components/code-switcher";
-import { ClerkLogo } from "../components/clerk-logo";
-import { NextLogo } from "../components/next-logo";
+import { CodeSwitcher } from "../../components/code-switcher";
 
-export default async function DashboardPage() {
+export default async function SAMLPage() {
   return (
     <>
       <main className="max-w-[75rem] w-full mx-auto">
@@ -12,9 +10,9 @@ export default async function DashboardPage() {
           <div>
             <header className="flex items-center justify-between w-full h-16 gap-4">
               <div className="flex gap-4">
-                <ClerkLogo />
                 <div aria-hidden className="w-px h-6 bg-[#C7C7C8]" />
-                <NextLogo />
+                <h1> You signed in with a SAML Connection </h1>
+                <div aria-hidden className="w-px h-6 bg-[#C7C7C8]" />
               </div>
               <div className="flex items-center gap-2">
                 <OrganizationSwitcher
